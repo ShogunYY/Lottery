@@ -10,7 +10,7 @@ type GiftDao struct {
 	engine *xorm.Engine
 }
 
-func newGiftDao(engine *xorm.Engine) *GiftDao {
+func NewGiftDao(engine *xorm.Engine) *GiftDao {
 	return &GiftDao{
 		engine: engine,
 	}
